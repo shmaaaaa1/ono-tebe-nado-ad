@@ -1,6 +1,6 @@
 # Оно тебе надо
 
-Репозиторий проекта: https://github.com/shmaaaaa1/ono-tebe-nado
+Репозиторий проекта: https://github.com/shmaaaaa1/ono-tebe-nado-ad
 
 Одностраничный сайт аукциона вещей, в которые никто не верил. Статическая вёрстка на HTML и CSS.
 
