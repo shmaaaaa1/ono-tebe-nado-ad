@@ -5,6 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="index.html">
+        <img src="images/logo-black.svg" alt="Оно тебе надо" width="74" height="57" />
+      </a>
+      <nav>
+        <ul class="nav-list">
+          <li><a class="nav-list__link" href="#lots">Лоты</a></li>
+          <li><a class="nav-list__link" href="#about">О проекте</a></li>
+          <li><a class="nav-list__link" href="#footer">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <img class="hero__cover" src="images/cover.jpg" alt="Яркая картина маслом с розовыми кристаллами на тёмно-синем фоне" width="1100" height="608" />
+        <h1 class="hero__title">Оно тебе надо</h1>
+        <p class="hero__text">Аукцион вещей, в которые никто не верил. Каждый лот — история, которую стоит услышать.</p>
+      </section>
+
+      <section class="lots" id="lots">
+        <h2 class="section-title">Ближайшие лоты</h2>
+        <ul class="lots__list">
+          <li class="lot-card">
+            <img class="lot-card__image" src="images/card-lot-01.jpg" alt="Двое людей смотрят друг на друга через зеркало в саду" width="860" height="900" />
+            <h3 class="lot-card__title">Зеркало для причёски</h3>
+            <p class="lot-card__price">Стартовая цена: 1 200 ₽</p>
+            <time class="lot-card__date" datetime="2026-12-15">Торги до 15 декабря</time>
+          </li>
+          <li class="lot-card">
+            <img class="lot-card__image" src="images/card-lot-02.jpg" alt="Лот номер два, второй предмет аукциона" width="860" height="900" />
+            <h3 class="lot-card__title">Лот номер два</h3>
+            <p class="lot-card__price">Стартовая цена: 800 ₽</p>
+            <time class="lot-card__date" datetime="2026-12-18">Торги до 18 декабря</time>
+          </li>
+          <li class="lot-card">
+            <img class="lot-card__image" src="images/card-lot-03.jpg" alt="Лот номер три, третий предмет аукциона" width="860" height="900" />
+            <h3 class="lot-card__title">Лот номер три</h3>
+            <p class="lot-card__price">Стартовая цена: 2 500 ₽</p>
+            <time class="lot-card__date" datetime="2026-12-20">Торги до 20 декабря</time>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about" id="about">
+        <h2 class="section-title">О проекте</h2>
+        <p class="about__text">Мы продаём вещи, которые кажутся бесполезными, и рассказываем, почему они всё-таки нужны.</p>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <img class="footer__logo" src="images/logo-white.svg" alt="Оно тебе надо" width="74" height="57" />
+      <ul class="social-list">
+        <li>
+          <a class="social-list__link" href="https://vk.com" target="_blank" rel="noopener">
+            <img src="images/vk.svg" alt="ВКонтакте" width="32" height="32" />
+          </a>
+        </li>
+        <li>
+          <a class="social-list__link" href="https://youtube.com" target="_blank" rel="noopener">
+            <img src="images/yt.svg" alt="YouTube" width="32" height="32" />
+          </a>
+        </li>
+        <li>
+          <a class="social-list__link" href="https://pinterest.com" target="_blank" rel="noopener">
+            <img src="images/pinterest.svg" alt="Pinterest" width="32" height="32" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
